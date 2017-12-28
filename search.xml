@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[life]]></title>
+    <url>%2F2017%2F12%2F28%2Flife%2F</url>
+    <content type="text"><![CDATA[你努力生活的样子，真美]]></content>
+      <categories>
+        <category>Life</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[木有买域名的情况下，用github+hexo搭建博客遇到的坑]]></title>
+    <url>%2F2017%2F12%2F21%2Fhexo-error-1%2F</url>
+    <content type="text"><![CDATA[讲述自己木有买域名的情况下，用github+hexo搭建博客遇到的坑1.由于css或者js路径错误，造成页面在本地localhost上样式没有问题，但是在部署发布后访问发布后的路径没有出现样式的问题第一步：首先我检查自己的git中项目的设置（Setttings）中Repository name是不是你的命名正确，最好是以你的github的用户名.github.io。第二步：如果当时在你注册github账号后配置SSH key，那么你在配置_config.yml中的deploy: type: git repository: git@github.com:lvyonglin/lvyonglin.github.io.git branch: master repository这个参数的值最好用USE SSH中的地址 第三步：查看自己的git中项目的设置（Setttings）中的GitHub Pages是否配置成功，若是成功则会出现下面的情况若是没有出现可上述结果则可参照 https://pages.github.com/2,3,4步骤另外附带转载别人的利用Hexo+github搭建博客，零成本、无需域名、服务器http://blog.csdn.net/wkzd2016/article/details/70170786?locationNum=4&amp;fps=1在这片文章中关于GitHub Pages的配置可参照 https://pages.github.com/，因为新版的GitHub Pages不支持这篇文章的配置。 2.如果在搭建博客中总是出现一些警告类似于如下图解决办法：在命令末尾加上–no-optional即可， 如果碰见本地localhost是成功的，部署到github也是成功的，但是当再次添加文章，修改主题部署到github后，并没有什么改变，很有可能是因为缓存，可以换个浏览器试一试，或者清除缓存，3.我在搭建hexo博客查看的比较有用的资料分享 关于GitHub Pages的配置https://pages.github.com/ 关于安装node，请参照廖雪峰老师的文章https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00143450141843488beddae2a1044cab5acb5125baf0882000 关于安装git，请参照廖雪峰老师的文章https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137396287703354d8c6c01c904c7d9ff056ae23da865a000 整个的搭建过程2，(https://hexo.io/zh-cn/docs/index.html 整个的搭建过程1，http://blog.csdn.net/gertyy/article/details/53897603 利用Hexo+github搭建博客，零成本、无需域名、服务器 http://blog.csdn.net/wkzd2016/article/details/70170786?locationNum=4&amp;fps=1 写文章时图片的上传 http://www.jianshu.com/p/c2ba9533088a Hexo-NexT搭建个人博客 https://neveryu.github.io/2016/09/30/hexo-next-two/ GITHUB+HEXO博客轻松更换主题外观http://www.jianshu.com/p/469e985288b3 Hexo常见问题解决方案http://wp.huangshiyang.com/hexo%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88 hexo-theme-next主题优化 https://github.com/iissnan/hexo-theme-next/issues hexo-theme-next主题优化2 https://www.jianshu.com/p/c23902f93558 hexo-theme-next主题阅读量等功能的设计https://notes.wanghao.work/2015-10-21-%E4%B8%BANexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD.html#%E9%85%8D%E7%BD%AELeanCloud 优化之favicon的制作 https://tool.lu/favicon/ 如果图片过多，则可以用七牛图床。https://www.qiniu.com/具体怎么使用，可以搜教程。 由于github空间有限，上传的图片最好压缩比较好，一个压缩图片的网站https://tinypng.com/ 主题 NexT配置的官方文档 http://theme-next.iissnan.com/theme-settings.html]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+  </entry>
+</search>
